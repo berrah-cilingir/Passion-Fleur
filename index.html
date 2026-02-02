@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Passion Fleurale
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1 id="haut_de_page"> Ma passion Fleurale</h1>
+
+<main>
+   <div class="popup popup-invisible" id="modal">
+    <span id="closeBtn"> &times;</span>
+    <img src="" class="image_aggrandi" alt="image modal">
+  </div>
+<div class = "images_fleurs">
+</div>
+
+<script src="data.js"> </script>
+
+<form id="formulaire" class="Formulaire">
+
+  <label>* login :</label>
+  <input type="texte" id="titre" placeholder="Entrez votre titre ici" maxlength="20" required  >
+
+  <label>* Description :</label>
+  <input type="texte" id="description"  placeholder="Entrez votre texte ici" maxlength="200" required></textarea>
+
+  <label>* url :</label>
+  <input type="url" id="url"  placeholder="Entrez votre url ici"  maxlength="30" required></textarea>
+
+  <button type="button" id="previewBtn">Prévisualiser</button>
+
+  <button type="submit">Envoyer</button>
+
+</form>
+
+<div id="preview" ></div>
+
+<a href="#haut_de_page" class="hautdepage">Haut de page</a>
+</main>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<script src="script.js"> </script>
+
+</body>
+
+<footer>
+<a href="./mention_legale.html" alt="">Mentions Légales</a>
+</footer>
+</html>

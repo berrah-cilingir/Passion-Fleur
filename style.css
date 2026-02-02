@@ -1,0 +1,124 @@
+body {
+    min-width: 1040px; 
+    zoom: 90%;
+    font-family:'Poppins',sans-serif;
+    background-color: pink
+}
+h1{
+    text-align: center;
+}
+p{
+    line-height: 2;
+}
+main{
+    width: 800px;
+    background:  #f8f8f8;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 3px 3px 10px gray;
+}
+h2{
+    size: 3rem;
+    text-align: center;
+}
+.texte1{
+    size:1.5rem;
+}
+
+.image1{
+max-width: 100%;
+}
+
+figcaption{
+    font-size: 13px;
+    color:#f089b9
+ 
+}
+.hautdepage{
+    text-align: right;
+}
+a{
+    color: #0d00ff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.Formulaire {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: pink;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.Formulaire h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Formulaire label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.Formulaire textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Formulaire textarea {
+  resize: none;
+  height: 100px;
+}
+
+.Formulaire button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulaire button:hover {
+  background-color: #2980b9;
+}
+
+footer{
+  text-align: center;
+}
+
+.popup{
+   margin-left:auto;
+   margin-right: auto;
+  position: fixed;
+  top:0px;
+  bottom:0px;
+  width: 100%;
+  height: 100%;
+}
+
+.popup-invisible{
+  display : none;
+}
+
+.popup-visible{
+  display : flex;
+}
+
+#closeBtn{
+  background-color: red;
+  color:white;
+}
